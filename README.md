@@ -1,4 +1,4 @@
-Our Approach
+**Our Approach**
 
 Semiconductor inspection images posed as part of the i4C Hackathon 2026, sponsored by KLA typically suffer from both sensor noise and limited resolution at the same time. Our approach to this problem was to treat denoising and super-resolution not as two separate steps, but as a single restoration objective — since solving them independently risks compounding artifacts from one stage into the next.
 
@@ -10,7 +10,7 @@ For training, our priority was making the most of available H100 compute without
 
 Finally, we evaluated the model along three complementary axes — PSNR for pixel fidelity, SSIM for structural accuracy, and LPIPS for perceptual quality — alongside inference speed on H100, since a restoration model that can't keep pace with inspection throughput has limited real-world value regardless of image quality.
 
-Results
+**Results**
 Metric	Score
 PSNR (dB)	~29.0 (best observed, validation set)
 SSIM	0.82 – 0.88 (expected range at this PSNR band)
@@ -18,10 +18,12 @@ LPIPS	0.08 – 0.15 (expected range, lower is better)
 
 A PSNR of ~29 dB on real sensor-noise data (as opposed to synthetic bicubic-only degradation) reflects a meaningfully harder restoration task than most public SR benchmarks, and indicates strong recovery of both structure and fine detail. The SSIM and LPIPS figures above are the expected range for a model performing at this PSNR level with this architecture; we recommend running the included evaluation script on the final validation set before publishing exact figures.
 
-Conclusion
+**Conclusion**
 
 This repository demonstrates an end-to-end, deployment-aware approach to AI-based image restoration for semiconductor inspection — combining an RRDB/ESRGAN-style backbone, a defect-aware composite loss, and efficient mixed-precision training to jointly denoise and super-resolve inspection imagery. The result is a model that recovers high-fidelity, high- resolution images from degraded sensor input while remaining fast enough for practical inspection workflows. We believe this approach directly supports KLA's core mission of enabling reliable, high-throughput defect detection, and we see clear next steps in scaling evaluation to the full KLA dataset and further optimizing inference latency for production deployment.
 
-Authors
+**Authors**
+
 Diva Parekh
+
 Darshil Sapara
