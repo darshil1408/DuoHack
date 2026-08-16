@@ -27,6 +27,7 @@ A PSNR of ~29 dB on real sensor-noise data (as opposed to synthetic bicubic-only
 This repository demonstrates an end-to-end, deployment-aware approach to AI-based image restoration for semiconductor inspection — combining an RRDB/ESRGAN-style backbone, a defect-aware composite loss, and efficient mixed-precision training to jointly denoise and super-resolve inspection imagery. The result is a model that recovers high-fidelity, high- resolution images from degraded sensor input while remaining fast enough for practical inspection workflows. We believe this approach directly supports KLA's core mission of enabling reliable, high-throughput defect detection, and we see clear next steps in scaling evaluation to the full KLA dataset and further optimizing inference latency for production deployment.
 
 **Authors**
+
 Diva Parekh
 
 Darshil Sapara
