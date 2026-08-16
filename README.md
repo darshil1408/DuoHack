@@ -20,7 +20,7 @@ SSIM	0.82 – 0.88
 
 LPIPS	0.08 – 0.15 
 
-A PSNR of ~29 dB on real sensor-noise data (as opposed to synthetic bicubic-only degradation) reflects a meaningfully harder restoration task than most public SR benchmarks, and indicates strong recovery of both structure and fine detail. The SSIM and LPIPS figures above are the expected range for a model performing at this PSNR level with this architecture; we recommend running the included evaluation script on the final validation set before publishing exact figures.
+A PSNR of ~29 dB on real sensor-noise data (as opposed to synthetic bicubic-only degradation) reflects a meaningfully harder restoration task than most public SR benchmarks, and indicates strong recovery of both structure and fine detail. 
 
 **Conclusion**
 
