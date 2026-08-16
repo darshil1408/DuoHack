@@ -28,4 +28,5 @@ This repository demonstrates an end-to-end, deployment-aware approach to AI-base
 
 **Authors**
 Diva Parekh
+
 Darshil Sapara
