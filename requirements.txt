@@ -1,9 +1,29 @@
-numpy>=1.26
-torch>=2.5
-torchvision>=0.20
-tqdm>=4.66
-scikit-image>=0.24
-lpips>=0.1.4
-Pillow>=10.0
-matplotlib>=3.8
+# ============================================================
 
+# Semiconductor Image Restoration
+
+# Python dependencies
+
+# ============================================================
+
+# Core numerical and data-processing libraries
+
+numpy==2.2.6
+pandas==2.3.1
+matplotlib==3.10.5
+
+# Deep Learning
+
+torch==2.7.1
+torchvision==0.22.1
+
+# Image processing and computer vision
+
+opencv-python==4.12.0.88
+scikit-image==0.25.2
+Pillow==11.3.0
+
+# Configuration and utilities
+
+PyYAML==6.0.2
+tqdm==4.67.1
