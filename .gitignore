@@ -1,0 +1,38 @@
+# Python
+
+**pycache**/
+*.py[cod]
+.venv/
+venv/
+
+# Environment
+
+.env
+
+# IDE
+
+.vscode/
+.idea/
+
+# Dataset
+
+*.npy
+*.npz
+data/train/
+data/test/
+
+# Model checkpoints
+
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+runs/
+
+# Generated outputs
+
+outputs/
+predictions/
+logs/
+
+
