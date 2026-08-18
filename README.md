@@ -367,24 +367,24 @@ The project is being developed incrementally.
 
 ### Phase 1 — Dataset Understanding
 
-* [x] Inspect dataset structure
-* [x] Identify GT images
-* [x] Identify NoisyLR images
-* [x] Verify image dimensions
-* [x] Verify NumPy datatypes
-* [x] Inspect pixel ranges
-* [x] Establish paired-image relationship
+* [ ] Inspect dataset structure
+* [ ] Identify GT images
+* [ ] Identify NoisyLR images
+* [ ] Verify image dimensions
+* [ ] Verify NumPy datatypes
+* [ ] Inspect pixel ranges
+* [ ] Establish paired-image relationship
 
 ### Phase 2 — Baseline
 
-* [x] Implement bicubic upsampling
-* [x] Calculate baseline PSNR
+* [ ] Implement bicubic upsampling
+* [ ] Calculate baseline PSNR
 * [ ] Calculate baseline SSIM
 * [ ] Generate qualitative comparison images
 
 ### Phase 3 — Deep Learning
 
-* [x] Create PyTorch dataset pipeline
+* [ ] Create PyTorch dataset pipeline
 * [ ] Implement restoration model
 * [ ] Implement training loop
 * [ ] Implement validation loop
